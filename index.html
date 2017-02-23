@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/styles/css/normalize.css">
+  <link rel="stylesheet" href="./src/styles/css/skeleton.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+  <header class="container">
+    <div class="row">
+        <button class="two columns">Home</button>
+        <button class="two columns">Songs</button>
+        <button class="two columns">Friends</button>
+        <button class="two columns">Log-In</button>
+        <!-- <button>Log-out</button> -->
+    </div>
+  </header>
+  <div class="container for-login">
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <label for="exampleEmailInput">Username</label>
+          <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+        </div>
+        <div class="six columns">
+          <label for="exampleEmailInput">Password</label>
+          <input class="u-full-width" type="password" placeholder="password" id="exampleEmailInput">
+        </div>
+      </div>
+      <input class="button" type="submit" value="Login">
+    </form>
+  </div>
+  <main>
+    <div class="container">
+      <h1 class="u-full-width">Weak Stream <span class="yeller"> | </span> Strong Stream</h1>
+    </div>
+    <div class="container welcome-user">
+      <div class="row user-top">
+        <img src="http://placehold.it/150x150">
+        <div>Hello User! Welcome Back</div>
+      </div>
+      <div class="row user-bottom">
+        <p>You have <a href="#">_____</a> songs in your library.</p>
+        <p>You have <a href="#">_____</a> friends in your krewe.</p>
+      </div>
+    </div>
+    <div class="container song-list">
+      <h2>In the stream....</h2>
+      <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Song</th>
+              <th>Artist</th>
+              <th>Year</th>
+              <th>Listen Now</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>In a Black Out</td>
+              <td>Hamilton Leithauser + Rostam</td>
+              <td>2016</td>
+              <td><img class="tiny-icon" src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Audio-icon.png"></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <div class="container friend-list">
+      <h2>You've crossed streams with...</h2>
+      <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Pic</th>
+              <th>Friend Name</th>
+              <th>Friends Since</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><div class="tiny-friend"></div></td>
+              <td>Scuba Steve</td>
+              <td>2016</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </main>
+  <footer>
+    <div class="icon">
+    </div>
+  </footer>
+
+
+<script src="./lib/js/vendor/vendor.min.js"></script>
+<script src="./lib/js/app.js"></script>
+</body>
+</html>

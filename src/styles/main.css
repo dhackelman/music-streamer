@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header .row {
+  display: flex;
+  justify-content: center;
+  margin: 1% auto; }
+header button:active {
+  color: #fff;
+  background-color: #000; }
+
+footer {
+  border: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  footer .icon {
+    background-image: url(http://www.svgrepo.com/show/1085/toilet.svg);
+    background-size: 100%;
+    height: 50px;
+    width: 50px; }
+
+.for-login {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 5%;
+  height: 100vh;
+  width: 100vw;
+  z-index: 5; }
+  .for-login form {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 2%;
+    width: 60%; }
+
+.welcome-user .user-top {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .welcome-user .user-top img {
+    display: inline-block;
+    margin: 1% 5%; }
+  .welcome-user .user-top div {
+    display: inline-block;
+    margin: 1% 5%; }
+.welcome-user .user-bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 5%; }
+  .welcome-user .user-bottom p {
+    display: block;
+    text-align: center;
+    width: 100%; }
+
+.tiny-icon {
+  height: 20px;
+  width: 20px; }
+
+.tiny-icon:hover {
+  box-shadow: 0 0 1px 10px #ffff84; }
+
+.tiny-friend {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/3b/7a/6c/3b7a6c2612670a9d372086a06c57af48.jpg);
+  background-size: 100%;
+  height: 40px;
+  width: 30px; }
+
+h1 {
+  margin: 2% auto;
+  text-align: center; }
+
+.yeller {
+  color: #ffff84;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; }
+
+/*# sourceMappingURL=main.css.map */
