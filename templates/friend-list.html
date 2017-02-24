@@ -4,15 +4,22 @@
       <thead>
         <tr>
           <th>Pic</th>
-          <th>Friend Name</th>
-          <th>Friends Since</th>
+          <th>Streamer Username</th>
+          <th>Streamer PassStream</th>
+          <th># of Stream Buddies</th>
+          <th>Steadily Streamed Songs</th>
+          <th>Streamer ID</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr ng-repeat="friend in friendCtrl.allFriends">
+          <!-- style="background-image: url({{friend.picture}}) -->
           <td><div class="tiny-friend"></div></td>
-          <td>Scuba Steve</td>
-          <td>2016</td>
+          <td>{{friend.email}}</td>
+          <td>{{friend.password}}</td>
+          <td>{{friend.friends}}</td>
+          <td>{{friend.songsLiked}}</td>
+          <td>{{friend.id}}</td>
         </tr>
       </tbody>
     </table>

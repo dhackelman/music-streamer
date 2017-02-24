@@ -15,11 +15,12 @@
         templateUrl: './templates/home.html'
     }).state('MusicParent.songlist', {
         url: 'song-list',
-        templateUrl: './templates/song-list.html'
-        // controller: 'ListController as listCtrl'
+        templateUrl: './templates/song-list.html',
+        controller: 'ListController as listCtrl'
     }).state('MusicParent.friendlist', {
       url: 'friend-list',
-      templateUrl: './templates/friend-list.html'
+      templateUrl: './templates/friend-list.html',
+      controller: 'FriendController as friendCtrl',
     });
   });
 
