@@ -10,7 +10,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="song in listCtrl.allSongs">
+        <tr ng-repeat="song in listCtrl.allSongs track by song.web_url" ng-click="listCtrl.showDetails()">
           <td>{{song.title}}</td>
           <td>{{song.artist}}</td>
           <td>{{song.year}}</td>

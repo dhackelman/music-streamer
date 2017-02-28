@@ -1,0 +1,20 @@
+<div class="container for-login">
+  <form class='login-form-new'>
+    <div class="eleven columns">
+      Are you a <a ui-sref="MusicParent.newUser"><button> new user </button></a>?
+    </div>
+  </form>
+  <form name="login-form" ng-submit="loginCtrl.grabForm(login-form.$viewValue); loginCtrl.compareStuff();" novalidate>
+    <div class="row">
+      <div class="six columns">
+        <label for="exampleEmailInput">Username</label>
+        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+      </div>
+      <div class="six columns">
+        <label for="exampleEmailInput">Password</label>
+        <input class="u-full-width" type="password" placeholder="password" id="exampleEmailInput">
+      </div>
+    </div>
+    <input class="button" type="submit" value="Login">
+  </form>
+</div>

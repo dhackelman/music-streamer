@@ -6,8 +6,10 @@ header .row {
   display: flex;
   justify-content: center;
   margin: 1% auto; }
-header button:active {
+header button:hover {
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); }
+header button:active {
   background-color: #000; }
 
 footer {
@@ -30,9 +32,20 @@ footer {
   z-index: 5; }
   .for-login form {
     background-color: #fff;
-    margin: 10% auto;
+    margin: 5% auto;
     padding: 2%;
     width: 60%; }
+
+.login-form-new {
+  height: 50px;
+  text-align: center; }
+  .login-form-new button {
+    margin: 0 1%; }
+  .login-form-new button:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .login-form-new button:active {
+    background-color: #000; }
 
 .welcome-user .user-top {
   display: flex;
@@ -72,7 +85,15 @@ h1 {
 
 .yeller {
   color: #ffff84;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: black; }
+
+.smaller {
+  border: .5px solid black;
+  border-radius: 5px;
+  margin: 2% auto;
+  font-size: 2rem;
+  text-align: center;
+  width: 50%; }
 
 /*# sourceMappingURL=main.css.map */

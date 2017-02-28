@@ -6,8 +6,13 @@ header {
     justify-content: center;
     margin: 1% auto;
   }
-  button:active{
+
+  button:hover {
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  button:active{
     background-color: #000;
   }
 

@@ -8,9 +8,27 @@
 
   form {
     background-color: #fff;
-    margin: 10% auto;
+    margin: 5% auto;
     padding: 2%;
     width: 60%;
 
   }
+}
+
+.login-form-new{
+  height: 50px;
+  text-align: center;
+
+  button {
+    margin: 0 1%;
+  }
+
+  button:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  button:active{
+    background-color: #000;
+  }
+
 }

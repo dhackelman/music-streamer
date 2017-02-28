@@ -12,10 +12,17 @@
             url: './data/users.json'
           });
         }
+        function fetchData3(url) {
+           return $http({
+            method: 'GET',
+            url: './data/users.json'
+          });
+        }
 
         return {
           get: fetchData,
-          get2: fetchData2
+          get2: fetchData2,
+          get3: fetchData3
         };
       });
   })();

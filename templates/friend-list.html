@@ -12,7 +12,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="friend in friendCtrl.allFriends">
+        <tr ng-repeat="friend in friendCtrl.allFriends" ng-click="friendCtrl.showDetails()">
           <!-- style="background-image: url({{friend.picture}}) -->
           <td><div class="tiny-friend"></div></td>
           <td>{{friend.email}}</td>

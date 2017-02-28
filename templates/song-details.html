@@ -1,0 +1,31 @@
+<div class="container welcome-user">
+  <div class="row song-top">
+    <div class="tiny-friend"></div>
+    <!-- <div>Hello <strong>{{friend.email}}</strong>! Check out this song: </div> -->
+  </div>
+  <div class="row song-bottom">
+    <div class="container song-list">
+      <h2>Part of the stream....</h2>
+      <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Song</th>
+              <th>Artist</th>
+              <th>Year</th>
+              <th>Lyrics</th>
+              <th>YouTube</th>
+              <th>Listen Now</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="song in songCtrl.allSongs track by song.web_url">
+              <td>{{song.title}}</td>
+              <td>{{song.artist}}</td>
+              <td>{{song.year}}</td>
+              <td>{{song.web_url}}</td>
+              <td><a href=""><img class="tiny-icon" src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Audio-icon.png"></a></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+</div>
