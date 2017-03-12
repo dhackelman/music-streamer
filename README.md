@@ -1,5 +1,5 @@
 # music-streamer
-Angular App to simulate streaming music
+Angular App to simulate searchable music and user database
 
 GH-Pages: https://dhackelman.github.io/music-streamer/
 Using an existing mock-database of users. 
